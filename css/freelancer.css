@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #38A3E6;
 }
 
 h1,
@@ -48,7 +48,6 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    background-image="img/ec_icon.png";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -63,11 +62,11 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #5C932D;
 }
 
 hr.star-primary {
-    border-color: #92dce0;
+    border-color: #008CD0;
 }
 
 hr.star-primary:after {
@@ -211,7 +210,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(250,235,215,.5);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
